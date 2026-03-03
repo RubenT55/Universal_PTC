@@ -1,0 +1,164 @@
+(footprint "MC000827"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Boitier porte-fusible MC000833 pour fusible MC000827")
+	(property "Reference" "REF**"
+		(at 3.175 -3.175 0)
+		(layer "F.SilkS")
+		(uuid "0bc25b2b-4754-46d4-9b65-042c4dbc44bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MC000827"
+		(at 5.08 -1.905 0)
+		(layer "F.Fab")
+		(uuid "ed50c2b4-4e6d-437f-9dbc-20dbfb2c41ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be2439f4-64c2-4667-b060-73aefa12b492")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a90aa7fc-1ba3-4ae1-84be-f79b0e2c23bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.3 0)
+		(end 24.3 0)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cc50666d-1231-42df-8b39-b0d621abb3cf")
+	)
+	(fp_line
+		(start -2.3 9)
+		(end -2.3 0)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5180e294-0126-4a9a-bfe2-be4bdfd9595f")
+	)
+	(fp_line
+		(start 0 0)
+		(end 22 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b19ca553-b732-48af-a070-78a3c5069381")
+	)
+	(fp_line
+		(start 0 9)
+		(end 0 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a8aac48-f4b0-4095-8a93-bced987b6c30")
+	)
+	(fp_line
+		(start 22 0)
+		(end 22 9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31f3b6d2-b765-4c1b-91ae-a1fd045e1d73")
+	)
+	(fp_line
+		(start 22 9)
+		(end 0 9)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "273f29af-95d1-4138-97a1-df99ce04647a")
+	)
+	(fp_line
+		(start 24.3 0)
+		(end 24.3 9)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9654c10d-a83e-4aeb-b957-9c4a2733cb8d")
+	)
+	(fp_line
+		(start 24.3 9)
+		(end -2.3 9)
+		(stroke
+			(width 0.0762)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d071ac7-4c4c-49bc-a8b8-a6f9e7bf05ef")
+	)
+	(pad "P$1" thru_hole oval
+		(at 22 4.5)
+		(size 1.95 3.9)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "abd1ec2e-94bd-47c7-8b34-d9251163af17")
+	)
+	(pad "P$2" thru_hole oval
+		(at 0 4.5)
+		(size 1.95 3.9)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "65c7d50c-582b-493b-8272-831eff5f48ee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/MC000827.step"
+		(offset
+			(xyz 11 -4.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

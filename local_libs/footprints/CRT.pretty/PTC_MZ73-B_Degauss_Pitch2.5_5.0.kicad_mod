@@ -1,0 +1,127 @@
+(footprint "PTC_MZ73-B_Degauss_Pitch2.5_5.0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -10.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c2c586f9-b7cd-45ef-bfe2-48dcd2f9e4c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PTC_MZ73-B_Degauss_Pitch2.5_5.0"
+		(at 0 -13 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c41d5f1e-612f-4473-acaa-25de6fc4da10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66cd2dba-8baa-4a69-862f-10d24e30d1b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678d03e6-c165-4c2a-b98d-d8ff0d3f21f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -9 -6.75)
+		(end 9 6.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8808cc67-21d2-4427-a2b0-283ca45bcc89")
+	)
+	(fp_rect
+		(start -9.25 -7)
+		(end 9.25 7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "320bc087-c279-4cbe-811f-0d5457b207d6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02c04812-b2c9-48a3-8606-83a397429a92")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -5)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "29cab78e-f8f0-441d-999f-dc6b0504131f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1de2115e-bd25-4fb4-9966-b637538f2875")
+	)
+	(pad "3" thru_hole circle
+		(at 2.5 -5)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "efab4ffc-14f4-4fc1-9d4c-511071e27a99")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Nuria Tobio/Downloads/Noir Banapass Replacement Shell and Panels r2/PTC_MZ73_B_Master_Final-PTC_MZ73_Export.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,22 @@
+# Archivos de respaldo y temporales de KiCad
+*-backups/
+*.bak
+*.bck
+*~
+_autosave-*
+*.tmp
+*.kicad_pcb-bak
+*.sch-bak
+*.000
+
+# Archivos de caché y configuración local (No compartir)
+fp-info-cache
+*.kicad_prl
+
+# Archivos de bloqueo
+*.lck
+
+# Opcional: Netlists y reportes de Autorouter/BOM
+*.net
+*.dsn
+*.ses
