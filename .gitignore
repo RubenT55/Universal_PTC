@@ -20,3 +20,4 @@ fp-info-cache
 *.net
 *.dsn
 *.ses
+local_libs/plugins/
